@@ -1,0 +1,11 @@
+file=open("output.txt",'w')
+user=input("enter text to write to the file:")
+file_write=file.write(user)
+print("data successfully writen  to output.txt.")
+print(file_write)
+file.close()
+
+file=open("output.txt",'a')
+file_wrote=file.write("\nhello moto")
+print(file_wrote)
+file.close()
